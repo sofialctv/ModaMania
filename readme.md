@@ -9,7 +9,7 @@
 - Wal Candeia - [@OnllyWal](https://github.com/OnllyWal/)
 
 # 2. MINI-MUNDO
-O sistema proposto para a loja de roupas e calçados ModaMania conterá as informações aqui detalhadas. Dos produtos serão armazenados o código, nome, descrição, tamanho (PP, P, M, G, GG, etc), cor, categoria (roupa ou calçado) e subcategoria (blusa e camiseta, calça, moletom, bota, chinelo, etc), público-alvo (adulto ou infantil) e gênero (feminino ou masculino), quantidade em estoque e preço. Cada categoria pode ter várias subcategorias e produtos a ela associados.
+O sistema proposto para a loja de roupas e calçados ModaMania conterá as informações aqui detalhadas. Dos produtos serão armazenados o código, nome, descrição, tamanho (PP, P, M, G, GG, etc), cor, categoria (roupa ou calçado) e subcategoria (feminino ou masculino), público-alvo (adulto ou infantil), quantidade em estoque e preço. Cada categoria pode ter várias subcategorias e produtos a ela associados.
 
 Os dados relativos aos clientes que serão armazenados incluem o código do cliente, nome, data de nascimento, CPF, telefone e e-mail. Cada cliente pode realizar várias compras. As compras armazenarão o código da compra, data, valor total e os produtos comprados, com suas respectivas quantidades. Cada compra está associada a um único cliente, mas um cliente pode realizar múltiplas compras.
 
@@ -37,7 +37,7 @@ Este relatório fornecerá uma análise das vendas em diferentes períodos, como
 ## 4.1 Modelo Conceitual
 ![alt text](PRINT_Conceitual.png)
 
-### 4.1.1 Descrição dos dados 
+### 4.1.1 Dicionário de dados 
 - **PÚBLICO-ALVO:** Tabela que armazena as informações sobre o público-alvo dos produtos.
     - **DESCRICAO:** Campo que armazena a descrição do público-alvo (adulto ou infantil).
 
@@ -89,29 +89,12 @@ Este relatório fornecerá uma análise das vendas em diferentes períodos, como
 
 ## 4.3 Modelo Físico
 
-
-
 # 5. MANIPULANDO O BANCO DE DADOS
 ## 5.1 INSERT
 **a) Script das instruções relativas a inclusão de dados** 
-
-Requisito mínimo: (Script dev conter: Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-
-```
-Observação
-
-1) Criar um novo banco de dados para testar a restauracao (em caso de falha na restauração o grupo não pontuará neste quesito)
-
-2) script deve ser incluso no template em um arquivo no formato .SQL
-
-```
+> 📂 [INSERTS.sql](/modaMania_Fisico/INSERTS.sql)
 
 # 6	TABELAS E PRINCIPAIS CONSULTAS
-```
-Observação
-
-Usa template da disciplina disponibilizado no Colab.
-```
 
 ## 6.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)
 
