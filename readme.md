@@ -88,15 +88,37 @@ Este relatório fornecerá uma análise das vendas em diferentes períodos, como
 ![alt text](PRINT_Logico.png)
 
 ## 4.3 Modelo Físico
+- 📂 [Modelo Físico](/modelo-fisico/)
+- Acesse o Jupyter Notebook online [**aqui**](https://colab.research.google.com/drive/1-Sv9sEFtgHFk4QIsP7sj3-dh5XXw5Ugz?usp=sharing)
 
 # 5. MANIPULANDO O BANCO DE DADOS
 ## 5.1 INSERT
 **a) Script das instruções relativas a inclusão de dados** 
-> 📂 [INSERTS.sql](/modaMania_Fisico/INSERTS.sql)
+📂 [INSERTS.sql](/modelo-fisico/INSERTS.sql)
 
 # 6	TABELAS E PRINCIPAIS CONSULTAS
+```
+# RELATIVAS AO ITEM:
+    Público alvo
+    Subcategoria
+    Tamanho
+    Cor
+    Categoria
+    Produto
+
+# RELATIVAS AO CLIENTE:
+    Cliente
+
+# RELATIVAS AO ATO DE COMPRA:
+    Compra
+    Compra do Item
+    Método de Pagamento
+    Status de Pagamento
+    Pagamento
+```
 
 ## 6.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)
+Disponível no Colab
 
 ## 6.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)
 
@@ -126,7 +148,7 @@ b) Criar uma consulta para cada tipo de função data apresentada.
 ## 6.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)
     a) Criar minimo 2 envolvendo algum tipo de junção
 
-## 6.8	CONSULTAS COM LEFT, RIGHT E FULL JOIN (Mínimo 4)<br>
+## 6.8	CONSULTAS COM LEFT, RIGHT E FULL JOIN (Mínimo 4)
     a) Criar minimo 1 de cada tipo
 
 ## 6.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
@@ -148,7 +170,7 @@ OBS: Esta é uma atividade de grande relevância no contexto do trabalho. Manten
 ```
 
 
-# 8	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL
+# 8	VÍDEO PARA APRESENTAÇAO FINAL
 
 #### a) Modelo (pecha kucha)
 #### b) Tempo de apresentação 6:40 
