@@ -29,7 +29,8 @@ INSERT INTO cor (codigo, descricao) VALUES
 (7, 'Cinza'),
 (8, 'Rosa'),
 (9, 'Marrom'),
-(10, 'Bege');
+(10, 'Bege'),
+(11, 'Roxo');
 
 INSERT INTO categoria (codigo, descricao) VALUES
 (1, 'Roupa'),
