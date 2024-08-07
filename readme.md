@@ -118,24 +118,19 @@ Este relatório fornecerá uma análise das vendas em diferentes períodos, como
 ```
 
 ## 6.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)
-Disponível no Colab
+Disponível no Colab.
 
 ## 6.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)
 
 ## 6.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-
-```
-a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
-b) Criar no mínimo 3 consultas com operadores aritméticos 
-c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
-```
+    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
+    b) Criar no mínimo 3 consultas com operadores aritméticos 
+    c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 
 ## 6.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12)
+    a) Criar outras 5 consultas que envolvam like ou ilike
+    b) Criar uma consulta para cada tipo de função data apresentada.
 
-```
-a) Criar outras 5 consultas que envolvam like ou ilike
-b) Criar uma consulta para cada tipo de função data apresentada.
-```
 
 ## 6.5	INSTRUÇÕES APLICANDO ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)
     a) Criar minimo 3 de exclusão
@@ -152,12 +147,12 @@ b) Criar uma consulta para cada tipo de função data apresentada.
     a) Criar minimo 1 de cada tipo
 
 ## 6.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
-        a) Uma junção que envolva Self Join (caso não ocorra na base justificar e substituir por uma view)
-        b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+    a) Uma junção que envolva Self Join (caso não ocorra na base justificar e substituir por uma view)
+    b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 
 ## 6.10	SUBCONSULTAS (Mínimo 4)<br>
-     a) Criar minimo 1 envolvendo GROUP BY
-     b) Criar minimo 1 envolvendo algum tipo de junção
+    a) Criar minimo 1 envolvendo GROUP BY
+    b) Criar minimo 1 envolvendo algum tipo de junção
 
 # 7 RELATÓRIOS E GRÁFICOS
 

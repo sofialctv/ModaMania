@@ -1,28 +1,24 @@
--- Inserindo dados na tabela publico_alvo
 INSERT INTO publico_alvo (codigo, descricao) VALUES
 (1, 'Adulto'),
 (2, 'Infantil');
 
--- Inserindo dados na tabela subcategoria
 INSERT INTO subcategoria (codigo, descricao) VALUES
 (1, 'Feminino'),
 (2, 'Masculino');
 
--- Inserindo dados na tabela tamanho
-INSERT INTO tamanho (codigo, descricao) VALUES
-(1, 'PP'),
-(2, 'P'),
-(3, 'M'),
-(4, 'G'),
-(5, 'GG'),
-(6, 'Infantil'),
-(7, '34'),
-(8, '36'),
-(9, '38'),
-(10, '40'),
-(11, '42');
+INSERT INTO  tamanho (codigo, descricao) VALUES
+(1,'PP'),
+(2,'P'),
+(3,'M'),
+(4,'G'),
+(5,'GG'),
+(6,'Infantil'),
+(7,'34'),
+(8,'36'),
+(9,'38'),
+(10,'40'),
+(11,'42');
 
--- Inserindo dados na tabela cor
 INSERT INTO cor (codigo, descricao) VALUES
 (1, 'Vermelho'),
 (2, 'Azul'),
@@ -35,12 +31,10 @@ INSERT INTO cor (codigo, descricao) VALUES
 (9, 'Marrom'),
 (10, 'Bege');
 
--- Inserindo dados na tabela categoria
 INSERT INTO categoria (codigo, descricao) VALUES
 (1, 'Roupa'),
 (2, 'Calçado');
 
--- Inserindo dados na tabela produto
 INSERT INTO produto (codigo, descricao, preco, fk_cor_codigo, fk_categoria_codigo, fk_tamanho_codigo, fk_publico_alvo_codigo, fk_subcategoria_codigo) VALUES
 (1, 'Vestido', 599, 1, 1, 4, 1, 1),
 (2, 'Blusa', 70, 2, 1, 2, 1, 1),
@@ -58,7 +52,6 @@ INSERT INTO produto (codigo, descricao, preco, fk_cor_codigo, fk_categoria_codig
 (14, 'Tênis', 150, 4, 2, 6, 2, 1),
 (15, 'Sandália', 70, 5, 2, 6, 1, 1);
 
--- Inserindo dados na tabela estoque
 INSERT INTO estoque (codigo, quantidade, fk_produto_codigo) VALUES
 (1, 50, 1),
 (2, 40, 2),
@@ -76,7 +69,6 @@ INSERT INTO estoque (codigo, quantidade, fk_produto_codigo) VALUES
 (14, 140, 14),
 (15, 150, 15);
 
--- Inserindo dados na tabela cliente
 INSERT INTO cliente (codigo, nome, cpf, telefone, email, inadimplencia) VALUES
 (1, 'João Silva', '111.111.111-11', '(11) 999999999', 'joao@modamania.com', FALSE),
 (2, 'Maria Souza', '222.222.222-22', '(11) 988888888', 'maria@modamania.com', FALSE),
@@ -89,7 +81,6 @@ INSERT INTO cliente (codigo, nome, cpf, telefone, email, inadimplencia) VALUES
 (9, 'Gustavo Barbosa', '999.999.999-99', '(11) 911111111', 'gustavo@modamania.com', FALSE),
 (10, 'Juliana Martins', '101.010.101-01', '(11) 900000000', 'juliana@modamania.com', FALSE);
 
--- Inserindo dados na tabela compra
 INSERT INTO compra (codigo, data_compra, fk_cliente_codigo) VALUES
 (1, '2022-01-05', 1),
 (2, '2022-02-15', 2),
@@ -122,12 +113,11 @@ INSERT INTO compra (codigo, data_compra, fk_cliente_codigo) VALUES
 (29, '2024-05-25', 9),
 (30, '2024-06-13', 10),
 (31, '2024-07-01', 1),
-(32, '2024-08-19', 2),
-(33, '2024-09-07', 3),
-(34, '2024-10-15', 4),
-(35, '2024-11-23', 5);
+(32, '2024-07-25', 2),
+(33, '2024-08-01', 3),
+(34, '2024-08-03', 4),
+(35, '2024-08-04', 5);
 
--- Inserindo dados na tabela compra_item
 INSERT INTO compra_item (codigo, valor, quantidade, fk_compra_codigo, fk_produto_codigo) VALUES
 (1, 5000, 1, 1, 1),
 (2, 8000, 1, 2, 2),
@@ -165,20 +155,17 @@ INSERT INTO compra_item (codigo, valor, quantidade, fk_compra_codigo, fk_produto
 (34, 6100, 1, 4, 4),
 (35, 4200, 1, 5, 5);
 
--- Inserindo dados na tabela metodo_pagamento
 INSERT INTO metodo_pagamento (codigo, descricao) VALUES
 (1, 'Cartão de Crédito'),
 (2, 'Cartão de Débito'),
 (3, 'Pix'),
 (4, 'Dinheiro');
 
--- Inserindo dados na tabela status_pagamento
 INSERT INTO status_pagamento (codigo, descricao) VALUES
 (1, 'Pago'),
 (2, 'Em Andamento'),
 (3, 'Atrasado');
 
--- Inserindo dados na tabela pagamento
 INSERT INTO pagamento (codigo, data_vencimento, data_pagamento, valor, parcela, fk_metodo_pagamento_codigo, fk_status_pagamento_codigo, fk_compra_codigo) VALUES
 (1, '2022-02-05', '2022-02-05', 5000, 1, 1, 1, 1),
 (2, '2022-03-12', '2022-03-12', 8000, 1, 2, 1, 2),
