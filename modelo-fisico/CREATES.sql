@@ -1,31 +1,36 @@
 -- TABELAS RELATIVAS A PRODUTO
 
+DROP TABLE IF EXISTS publico_alvo
 CREATE TABLE publico_alvo (
     codigo INT PRIMARY KEY,
     descricao VARCHAR(255) NOT NULL
 );
 
+DROP TABLE IF EXISTS subcategoria
 CREATE TABLE subcategoria (
     codigo INT PRIMARY KEY,
     descricao VARCHAR(255) NOT NULL
 );
 
-
+DROP TABLE IF EXISTS tamanho
 CREATE TABLE tamanho (
     codigo INT PRIMARY KEY,
     descricao VARCHAR(255) NOT NULL
 );
 
+DROP TABLE IF EXISTS cor
 CREATE TABLE cor (
     codigo INT PRIMARY KEY,
     descricao VARCHAR(255) NOT NULL
 );
 
+DROP TABLE IF EXISTS categoria
 CREATE TABLE categoria (
     codigo INT PRIMARY KEY,
     descricao VARCHAR(255) NOT NULL
 );
 
+DROP TABLE IF EXISTS produto
 CREATE TABLE produto (
     codigo INT PRIMARY KEY,
     descricao VARCHAR(255) NOT NULL,
@@ -38,6 +43,7 @@ CREATE TABLE produto (
     fk_subcategoria_codigo INTEGER REFERENCES subcategoria(codigo)
 );
 
+DROP TABLE IF EXISTS estoque
 CREATE TABLE estoque (
     codigo INT PRIMARY KEY,
     quantidade INTEGER,
@@ -45,7 +51,7 @@ CREATE TABLE estoque (
 );
 
 -- TABELAS RELATIVAS AO CLIENTE
-
+DROP TABLE IF EXISTS cliente
 CREATE TABLE cliente (
     codigo INT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
@@ -56,13 +62,14 @@ CREATE TABLE cliente (
 );
 
 -- TABELAS RELATIVAS A COMPRA
-
+DROP TABLE IF EXISTS compra
 CREATE TABLE compra ( -- Tabela que relaciona produtos comprados por um cliente
     codigo INT PRIMARY KEY,
     data_compra DATE,
     fk_cliente_codigo INTEGER REFERENCES cliente(codigo)
 );
 
+DROP TABLE IF EXISTS compra_item
 CREATE TABLE compra_item (
     codigo INT PRIMARY KEY,
   	valor NUMERIC,
@@ -71,16 +78,19 @@ CREATE TABLE compra_item (
     fk_produto_codigo INTEGER REFERENCES produto(codigo)
 );
 
+DROP TABLE IF EXISTS metodo_pagamento
 CREATE TABLE metodo_pagamento (
     codigo INT PRIMARY KEY,
     descricao VARCHAR(255) NOT NULL
 );
 
+DROP TABLE IF EXISTS status_pagamento
 CREATE TABLE status_pagamento (
     codigo INT PRIMARY KEY,
     descricao VARCHAR(255) NOT NULL
 );
 
+DROP TABLE IF EXISTS pagamento
 CREATE TABLE pagamento (
     codigo INT PRIMARY KEY,
     data_vencimento DATE,

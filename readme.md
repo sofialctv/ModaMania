@@ -1,5 +1,5 @@
 # 🗃️ TRABALHO 01: Sistema de Loja de Roupas & Calçados: Moda Mania - Grupo 5
-*Este repositório tem por objetivo armazenar os arquivos elaborados em função do Trabalho I da disciplina de Banco de Dados [2024/1], ministrada pelo Prof. Moisés Omena.*
+*Este repositório tem por objetivo armazenar os arquivos elaborados em função do Trabalho I da disciplina de Banco de Dados [2024/1], ministrada pelo Prof. Moisés Omena. Acesse o Jupyter Notebook do trabalho [**aqui**](https://colab.research.google.com/drive/1-Sv9sEFtgHFk4QIsP7sj3-dh5XXw5Ugz?usp=sharing).*
 
 # 1. COMPONENTES
 - Alex Rossoni - [@alexrossoni](https://github.com/alexrossoni/)
@@ -89,7 +89,7 @@ Este relatório fornecerá uma análise das vendas em diferentes períodos, como
 
 ## 4.3 Modelo Físico
 - 📂 [Modelo Físico](/modelo-fisico/)
-- Acesse o Jupyter Notebook online [**aqui**](https://colab.research.google.com/drive/1-Sv9sEFtgHFk4QIsP7sj3-dh5XXw5Ugz?usp=sharing)
+- 📙 Acesse o Jupyter Notebook online [**aqui**](https://colab.research.google.com/drive/1-Sv9sEFtgHFk4QIsP7sj3-dh5XXw5Ugz?usp=sharing)
 
 # 5. MANIPULANDO O BANCO DE DADOS
 ## 5.1 INSERT
@@ -97,6 +97,7 @@ Este relatório fornecerá uma análise das vendas em diferentes períodos, como
 📂 [INSERTS.sql](/modelo-fisico/INSERTS.sql)
 
 # 6	TABELAS E PRINCIPAIS CONSULTAS
+- 📙 Acesse o Jupyter Notebook online [**aqui**](https://colab.research.google.com/drive/1-Sv9sEFtgHFk4QIsP7sj3-dh5XXw5Ugz?usp=sharing)
 ```
 # RELATIVAS AO ITEM:
     Público alvo
@@ -118,19 +119,23 @@ Este relatório fornecerá uma análise das vendas em diferentes períodos, como
 ```
 
 ## 6.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)
-Disponível no Colab.
+📂 [SELECTS.sql](/modelo-fisico/SELECTS.sql)
 
 ## 6.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)
+📂 [WHERE.sql](/modelo-fisico/INSERTS.sql)
 
 ## 6.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 
+📂 [LOGICAL.sql](/modelo-fisico/LOGICAL.sql)
+
 ## 6.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12)
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
 
+📂 [LIKE-DATAS.sql](/modelo-fisico/LIKE-DATAS.sql)
 
 ## 6.5	INSTRUÇÕES APLICANDO ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)
     a) Criar minimo 3 de exclusão

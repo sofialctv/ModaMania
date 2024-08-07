@@ -1,3 +1,5 @@
+-- 6.1 CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)
+
 SELECT * FROM publico_alvo
 
 SELECT * FROM subcategoria
