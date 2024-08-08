@@ -18,20 +18,20 @@ Os dados do caixa incluirão informações sobre os pagamentos realizados. Cada 
 # 3. RELATÓRIOS
 A loja ModaMania demanda os seguintes relatórios podem ser propostos:
 
-1. **Relatório de Vendas por Categoria e Subcategoria**
-Este relatório exibirá o total de vendas (em quantidade e valor) para cada categoria (roupa ou calçado) e suas respectivas subcategorias (blusa e camiseta, calça, moletom, bota, chinelo, etc.). Informações incluídas: Categoria, Subcategoria, Quantidade Vendida, Valor Total Vendido, Data da Venda.
+# 1. **Relatório de Vendas por Categoria e Subcategoria**
+Este relatório exibirá o total de vendas (valor) para cada categoria (roupa ou calçado). Informações incluídas: Categoria, Valor Total Vendido.
 
-2. **Relatório de Estoque**
-Este relatório apresentará a quantidade atual de cada produto em estoque, categorizado por tamanho, cor, público-alvo e gênero Informações incluídas: Código do Produto, Nome do Produto, Tamanho, Cor, Público-Alvo, Gênero, Quantidade em Estoque, Preço.
+# 2. **Relatório de Estoque**
+Este relatório apresentará a quantidade atual de cada produto em estoque, categorizado por tamanho. Informações incluídas:Nome do Produto, Tamanho, Quantidade em Estoque.
 
-3. **Relatório de Compras por Cliente**
-Este relatório listará todas as compras realizadas por cada cliente, incluindo detalhes dos produtos comprados e os valores totais de cada compra. Informações incluídas: Código do Cliente, Nome do Cliente, Código da Compra, Data da Compra, Produtos Comprados (com Quantidades), Valor Total da Compra.
+# 3. **Relatório de Compras por Cliente**
+Este relatório listará todas as compras realizadas por cada cliente, incluindo os valores totais das compras de cada cliente. Informações incluídas: Nome do Cliente, Valor Total da Compra.
 
-4. **Relatório de Pagamentos e Inadimplência**
-Este relatório mostrará o status dos pagamentos realizados pelos clientes, destacando os pagamentos em andamento, pagos e atrasados. Incluirá uma seção específica para clientes inadimplentes. Informações incluídas: Código do Pagamento, Código da Compra, Data do Pagamento, Data de Vencimento, Valor Pago, Método de Pagamento, Status do Pagamento, Código do Cliente, Nome do Cliente.
+# 4. **Relatório de Pagamentos e Inadimplência**
+Este relatório mostrará o status dos pagamentos realizados pelos clientes, destacando os pagamentos em andamento,pagos e atrasados. Informações incluídas: Status do Pagamento,.
 
-5. **Relatório de Desempenho de Vendas por Período**
-Este relatório fornecerá uma análise das vendas em diferentes períodos, como mensal, trimestral e anual, ajudando a identificar tendências e sazonalidades nas vendas. Informações incluídas: Período (Mês/Trimestre/Ano), Quantidade Vendida, Valor Total Vendido, Categoria, Subcategoria, Público-Alvo, Gênero.
+# 5. **Relatório de Desempenho de Vendas por Período**
+Este relatório fornecerá uma análise das vendas em diferentes períodos. Informações incluídas: Período, Valor Total Vendido, Categoria.
     
 # 4. MODELAGEM DO SISTEMA
 ## 4.1 Modelo Conceitual
@@ -141,36 +141,36 @@ Este relatório fornecerá uma análise das vendas em diferentes períodos, como
     a) Criar minimo 3 de exclusão
     b) Criar minimo 3 de atualização
 
+📂 [DELETE-UPDATE.sql](/modelo-fisico/DELETE-UPDATE.sql)
+
 ## 6.6	CONSULTAS COM INNER JOIN E ORDER BY (Mínimo 6)
     a) Uma junção que envolva todas as tabelas possuindo no mínimo 2 registros no resultado
     b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+📂 [INNER-JOIN-ORDER-BY.sql](/modelo-fisico/INNER-JOIN-ORDER-BY.sql)
 
 ## 6.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)
     a) Criar minimo 2 envolvendo algum tipo de junção
+📂 [GROUP-BY.sql](/modelo-fisico/GROUP-BY.sql)
+
 
 ## 6.8	CONSULTAS COM LEFT, RIGHT E FULL JOIN (Mínimo 4)
     a) Criar minimo 1 de cada tipo
+📂 [LEFT-RIGHT-FULL-JOIN.sql](/modelo-fisico/LEFT-RIGHT-FULL-JOIN.sql)
+
 
 ## 6.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
     a) Uma junção que envolva Self Join (caso não ocorra na base justificar e substituir por uma view)
     b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+📂 [SELF-JOIN-VIEW.sql](/modelo-fisico/SELF-JOIN-VIEW.sql)
+
 
 ## 6.10	SUBCONSULTAS (Mínimo 4)<br>
     a) Criar minimo 1 envolvendo GROUP BY
     b) Criar minimo 1 envolvendo algum tipo de junção
+📂 [SUBCONSULTAS.sql](/modelo-fisico/SUBCONSULTAS.sql)
+
 
 # 7 RELATÓRIOS E GRÁFICOS
-
-a) análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
-
-b) link com exemplo de relatórios será disponiblizado pelo professor no AVA
-
-``` 
-OBS: Esta é uma atividade de grande relevância no contexto do trabalho. Mantenha o foco nos 5 principais relatórios/resultados visando obter o melhor resultado possível
-```
-
+📙 [ModaMania_Relatorios.ipynb](/ModaMania_Relatorios.ipynb)
 
 # 8	VÍDEO PARA APRESENTAÇAO FINAL
-
-#### a) Modelo (pecha kucha)
-#### b) Tempo de apresentação 6:40 
