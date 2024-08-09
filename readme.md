@@ -174,3 +174,4 @@ Este relatório fornecerá uma análise das vendas em diferentes períodos. Info
 📙 [ModaMania_Relatorios.ipynb](/ModaMania_Relatorios.ipynb)
 
 # 8	VÍDEO PARA APRESENTAÇAO FINAL
+📹 https://youtu.be/pjVOI6IYUZc
